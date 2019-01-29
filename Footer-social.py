@@ -4,6 +4,8 @@ import unittest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
+# lets see if this github workflow makes sense 
+
 browser = webdriver.Chrome()
 browser.get("http://closerweekly.com.bntp-staging.bauerxcel.com/")
 
