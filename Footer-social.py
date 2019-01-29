@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 browser = webdriver.Chrome()
 browser.get("http://closerweekly.com.bntp-staging.bauerxcel.com/")
 
-# Scrolls to bottom of the page with X + Y Coordinates
+# Scrolls to bottom of the page with X + Y Coordinates sg
 # browser.execute_script("window.scrollTo(0, 3080)")
 
 # Scrolls to bottom of the page using body/document scroll Height
