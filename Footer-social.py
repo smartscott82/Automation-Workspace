@@ -23,6 +23,7 @@ print(nav_list_social_links)
 nav_lis = nav_list_social_links.find_elements_by_css_selector("li.nav-link")
 print(nav_lis)
 print(len(nav_lis))
+
 #
 # first_li = nav_links[0]
 # first_a = first_li.find_element_by_tag_name('a')
