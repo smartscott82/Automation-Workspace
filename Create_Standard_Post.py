@@ -4,6 +4,17 @@ import unittest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
+class TestFoo(unittest.TestCase):
+    def setUp(self):
+        self.selenium = selenium('localhost', 4444, "*chrome", 'http://blackpearl/')
+        self.selenium.start()
+
+    def tearDown(self):
+        self.selenium.stop()
+
+    def test_bar(self):
+        self.selenium.open("/somepage")
+
 browser = webdriver.Chrome()
 browser.get("https://bntp-staging.bauerxcel.com/users/sign_in")
 

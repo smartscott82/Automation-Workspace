@@ -3,7 +3,7 @@ import time
 import unittest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
-
+ 
 def login(browser):
     #login
     browser.get("https://bntp-staging.bauerxcel.com/users/sign_in")
@@ -29,7 +29,7 @@ def select_magazine(browser):
 
 
 def create_article(browser):
-    # Creates the main components of a Standard Article 
+    # Creates the main components of a Standard Article
     HL = browser.find_element_by_name("post[title]")
     HL.send_keys("Test Headline - SG - Automated Test")
     time.sleep(1)
@@ -116,7 +116,6 @@ def publish_article():  # save & publish article with an image
 #logintest()
 #magazine_selection()
 #write_article()
-save_article()
+#save_article()
 #publish_article_no_image()
-#publish_article()
-
+publish_article()

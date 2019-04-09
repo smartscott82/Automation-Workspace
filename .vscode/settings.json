@@ -1,0 +1,5 @@
+{
+    "editor.acceptSuggestionOnEnter": "on",
+    "python.jediEnabled": true,
+    "python.pythonPath": "/Users/sgriffin/homebrew/opt/python/bin/python3.7"
+}
